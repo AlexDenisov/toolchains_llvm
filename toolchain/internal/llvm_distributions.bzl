@@ -537,6 +537,9 @@ _llvm_distributions = {
     "LLVM-19.1.3-macOS-X64.tar.xz": "52ea30f3089af4e086a98638a16167c5a20d253d43f7146c058e3e9e6d33274f",
     "LLVM-19.1.3-Windows-X64.tar.xz": "1077267ca353a1e236055ed4b57d6a404d09c40b01bd27dc882870395cdc1aae",
     "clang+llvm-19.1.3-aarch64-linux-gnu.tar.xz": "a730175e58233f20a99ecab0015d8cd0f1af5d92411ca1f9e3e472645d889bcd",
+
+    # 20.1.0-rc2
+    "LLVM-20.1.0-rc2-Linux-ARM64.tar.xz": "d36cd990bd53fb45fc47ff770514dd12e8bff8b9edae520efdfbff1be48cb82b",
 }
 
 # Note: Unlike the user-specified llvm_mirror attribute, the URL prefixes in
@@ -599,6 +602,7 @@ _llvm_distributions_base_url = {
     "19.1.1": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
     "19.1.2": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
     "19.1.3": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
+    "20.1.0-rc2": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
 }
 
 def _get_auth(ctx, urls):
