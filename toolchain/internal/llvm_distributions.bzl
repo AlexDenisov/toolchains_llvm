@@ -538,6 +538,10 @@ _llvm_distributions = {
     "LLVM-19.1.3-Windows-X64.tar.xz": "1077267ca353a1e236055ed4b57d6a404d09c40b01bd27dc882870395cdc1aae",
     "clang+llvm-19.1.3-aarch64-linux-gnu.tar.xz": "a730175e58233f20a99ecab0015d8cd0f1af5d92411ca1f9e3e472645d889bcd",
 
+
+    # 20.1.0-rc1
+    "LLVM-20.1.0-rc1-Linux-ARM64.tar.xz": "964422c09c08a356bf28f8e15dc982e9b5d8d1f3c89f119a70186d1ca9070b30",
+    "LLVM-20.1.0-rc1-macOS-ARM64.tar.xz": "d3f460e36cd57a552aa7f06f5cdcafe881d8d2532054a11af555188b6cfc6295",
     # 20.1.0-rc2
     "LLVM-20.1.0-rc2-Linux-ARM64.tar.xz": "d36cd990bd53fb45fc47ff770514dd12e8bff8b9edae520efdfbff1be48cb82b",
 }
@@ -602,6 +606,7 @@ _llvm_distributions_base_url = {
     "19.1.1": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
     "19.1.2": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
     "19.1.3": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
+    "20.1.0-rc1": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
     "20.1.0-rc2": "https://github.com/llvm/llvm-project/releases/download/llvmorg-",
 }
 
